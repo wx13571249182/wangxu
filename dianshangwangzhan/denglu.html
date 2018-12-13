@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="style.css/denglu.css">
+</head>
+<body>
+    <img src="imgs/denglu1.jpg" class="diyi_img">
+    <div class="dier"><img src="imgs/denglu2.jpg" class="dier_img"></div>
+    <div class="denglujiemian">
+        <div class="heizi_1">
+            <div class="heizi_img"><img src="imgs/denglu3.jpg"></div>
+            <div class="heizi_1_1"><p>登录</p>  <a href="zhuce.html">原官网账号登录</a></div>
+        </div>
+        <div class="heizi_2">
+            <div class="heizi_2_1">
+            <form action="php/regSave.php" method="get" >
+            <input type="text" value="请输入手机号" id="denid">
+            <input type="text" value="请输入密码" id="denpass">
+            </div>
+                                <div class="heizi_2_2"><img src="imgs/denglu4.jpg" class="heizi_2_2_1"></div>
+                                <div class="heizi_2_3"><input type="checkbox" class="xuanzei_1"><p>十天内免登录</p><a href="#">忘记密码</a></div>
+            <div class="heizi_2_4">
+            <input type="button" value="立即登录" id="denglu">
+            </div>
+            </form>
+            <div class="heizi_2_5"><p>还没有amigo账号</p><a>立即登录</a></div>
+        </div>   
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="js/tool.js"></script>
+<script type="text/javascript" src="js/denglu.js"></script>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+    window.onload = function(){
+        panduan();
+    $("denglu").onclick = function(){
+            let xhr = new XMLHttpRequest();
+            xhr.open("get","php/checkuser02.php?user="+this.value,true);
+            
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState==4 && xhr.status==200){
+                    // $("userSpan").innerHTML =  xhr.responseText;
+                    if(xhr.responseText=="0"){
+                        alert("用户名可以注册");
+                    }else{
+                        alert( "该用户名已被使用");
+                    }
+                } 
+            }		
+            xhr.send();
+        }
+    }
+</script>

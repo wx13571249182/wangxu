@@ -1,0 +1,92 @@
+html,body{height:100%;border:0;}
+body{margin:0px;padding:0px;border:0;overflow: auto;background:#f5efef;}
+img{border: 0;}
+a{text-decoration: none;list-style:none;}
+
+.qq{width:1903px;height:104px;position: fixed;top:0px;left:0px;background:white;}
+
+/* 第一板块 */
+.diyi{height:104px;background:white;}
+.diyi_yi{height:63px;width:200px;overflow: hidden;position: relative;display:inline-block;margin-left:350px;margin-right:150px;float:left;}
+.logout{position: absolute;display:block;top:10px;left:0px;}
+.diyi_er{width:850px;height:105px;float:left;margin-left:100px;}
+.diyi_er_yi{width:750px;height:30px;}
+.diyi_er_yi_yi{line-height: 35px;padding-left:10px;padding-right:10px;font-size:10px;color:red;text-decoration: none;}
+.diyi_er_yi_yi:nth-child(1){margin-left:460px;}
+.diyi_er_yi_yi:nth-child(3){line-height: 35px;padding-left:10px;padding-right:10px;font-size:10px;color:black;}
+.diyi_er_yi_er{line-height: 35px;padding-left:5px;padding-right:5px;font-size:10px;}
+.diyi_er_er{width:850px;height:75px;margin-left:-100px;}
+.diyi_er_er_yi{font-size:16px;text-decoration: none;line-height: 75px;padding-left:25px;padding-right:25px;color:black;display:block;position: relative;float:left;}
+.diyi_er_er_yi_sjcd{width:1100px;height:400px;background:white;border:1px;position: absolute;top:60px;left:-480px;display:none;z-index: 1;opacity: .8;}
+.ul_1{display:inline-block;width:120px;height:300px;margin-left:20px;float:left;line-height:40px;}
+.ul_1 li{display:inline-block;color:black;list-style:none;}
+.ul_1 li:hover{color:red;}
+/* .diyi_er_er_yi:hover .diyi_er_er_yi_sjcd{display:block;} */
+.diy_er_yi_yi:hover{color:red;}
+.diyi_er_er_yi:hover{color:red;}
+.diyi_er_yi_yi:nth-child(3):hover{color:red;}
+.input_box{width:170px;height:28px;display:inline-block;margin-left:80px;}
+.input_1{width:138px;height:28px;display:inline-block;border: 1px solid black;float:left;border-right: 0px;}
+.input_2{width:25px;height:30px;position: relative;overflow:hidden;display:inline-block;float:left;border:1px solid black;border-left:0px;}
+.input_2 img{display:block;left:-233px;top:2px;position: absolute;}
+/* 第二板塊 */
+.dier{width:1190px;height:2179px;background:rgb(228, 221, 221);margin:0 auto;}
+.dier_1{width:1190px;height:350px;margin:0 auto;background:white;display: block;}
+.disan{width:1190px;height:220px;margin-top:15px;background:white;border-bottom:1px;}
+.disan_1{width:1150px;height:55px;border-bottom: 1px solid rgb(228, 221, 221);margin:0 auto;}
+.disan p{display:inline-block;margin:20px;}
+.disan a{color:black;line-height: 55px;}
+.disan_2{width:1150px;height:55px;border-bottom: 1px solid rgb(228, 221, 221);margin:0 auto;}
+.disan_3{width:1150px;height:55px;border-bottom: 1px solid rgb(228, 221, 221);margin:0 auto;}
+.disan_4{width:1150px;height:55px;border-bottom: 1px solid rgb(228, 221, 221);margin:0 auto;}
+.jtdiv_1{width:10px;height:12px;display:inline-block;overflow: hidden;position: relative;}
+.jiantou_1{display:inline-block;margin-left:-10px;position: absolute;top:-11px;}
+.jtdiv_2{width:10px;height:12px;display:inline-block;overflow: hidden;position: relative;}
+.jiantou_2{display:inline-block;margin-left:-10px;position: absolute;top:-11px;}
+.jtdiv_3{width:10px;height:12px;display:inline-block;overflow: hidden;position: relative;}
+.jiantou_3{display:inline-block;margin-left:-10px;position: absolute;top:0px;}
+.didi{width:1190px;height:1475px;}
+.disi_1{width:1190px;height:1473px;margin-top:5px;padding-left:-40px;padding:0px;}
+.disi_1_1{margin-bottom:1px;margin-right:1px;width:296px;height:491px;background:white;overflow: hidden;display:block;float:left;border:0px;position: relative;}
+.disi_1_1:nth-child(4n){margin-right: 0px;}
+.hover_1{width:300px;height:111px;background: rgb(240, 23, 8);opacity: .8;position: absolute;top:380px;display:none;}
+.disi_1_1:nth-child(2):hover .hover_1{display:block;z-index: 1;}
+.disi_1_1:nth-child(3):hover .hover_1{display:block;z-index: 1;}
+.disi_1_1:nth-child(4):hover .hover_1{display:block;z-index: 1;}
+/* .disi_1_1:nth-child(5):hover .hover_1{display:block;z-index: 1;} */
+.disi_1_1:nth-child(6):hover .hover_1{display:block;z-index: 1;}
+.disi_1_1:nth-child(7):hover .hover_1{display:block;z-index: 1;}
+.disi_1_1:nth-child(8):hover .hover_1{display:block;z-index: 1;}
+/* .disi_1_1:nth-child(9):hover .hover_1{display:block;z-index: 1;} */
+.disi_1_1:nth-child(10):hover .hover_1{display:block;z-index: 1;}
+.disi_1_1:nth-child(11):hover .hover_1{display:block;z-index: 1;}
+.disi_1_1:nth-child(12):hover .hover_1{display:block;z-index: 1;}
+.disi_tupian1{width:297px;height:300px;display:block;margin-top:50px;margin-bottom: 41px;}
+.disi_1_1_1{width:300;height:50px;}
+.disi_1_1_1_a{font-size:14px;display:block;text-align: center;line-height: 20px;color:rgb(85, 81, 81);}
+.disi_1_1_1_a span{font-size:14px;text-align: center;color:#cec4c4}
+.disi_1_1_2{width:300;text-align: center;}
+.disi_1_1_2 span{width:50px;height:20px;display:inline-block;margin-right:10px;color:red;font-size:18px;}
+.disi_1_1_2 del{width:40px;height:20px;display:inline-block;margin-left:10px;font-size:16px;}
+.hover_1 p{text-align: center;display:block;margin:0 auto;line-height: 40px;white-space:nowrap;}
+.hover_1_1{width:132px;height:37px;background:white;color:black;font-size:16px;display:block;margin:0 auto;text-align: center;border-radius: 5px; line-height: 37px;}
+.diwu{height:58px;}
+.diwu ul li{list-style: none;display:block;float:left;margin:0 auto;margin-top:15px;margin-right:5px;}
+.diwu ul li:nth-child(1){margin-left:420px;}
+/*  */
+.dishi{height:156px;background:black;overflow: hidden;}
+.dishi_1{height:116px;margin-top:20px;}
+.dishi_1_1{width:1190px;height:23px;margin:0 auto;position: relative;margin-top:-15px;}
+.dishi_1_1_zuo{width:90px;height:16px;display:block;color:white;float:left;}
+.dishi_1_1_you{width:130px;height:23px;display:block;color:white;float:left;}
+.dishi_hover{width:0px;height:0px;border:5px solid transparent;border-top-color:floralwhite;display:inline-block;}
+.cd-1{position:absolute;width:100px;height:48px;display:none;left:0px;}
+.cd-1 a{color:white;text-decoration: none;display:block;}
+.dishi_1_1 :hover .cd-1{display:block;color:red;}
+.dishi_1_2{width:1190px;margin:0 auto;height:47px;margin-top:10px;color:white;margin-top:25px;}
+.dishi_1_3{width:1190px;margin:0 auto;height:23px;background:aquamarine;}
+.weibu2{display:inline-block;width:33px;height:45px;float:left;}
+.dishi_1_2 p{margin-left:-219px;display:inline-block;width:700px;height:30px;font-size:12px;color:white;float:left}
+.weibu1{display:inline-block;float:left;}
+.weibu3{display:inline-block;width:120px;height:46px;float:left;}
+.dishi_2_1{display:block;width:1190px;height:23px;margin:0 auto;color:white;}

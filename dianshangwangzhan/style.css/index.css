@@ -1,0 +1,143 @@
+html,body{height:100%;border:0;}
+body{margin:0px;padding:0px;border:0;overflow: auto;}
+img{border: 0;}
+/* 固定定位 */
+.ww{width:60px;height:288px;position: fixed;top:200px;right:6px;background:white;border:0px;}
+.ww_1{width:60px;height:70px;background:gold;}
+.ww_1_1{display:block;} 
+.ww_2{width:60px;height:70px;background:rgb(161, 142, 35);}
+.ww_3{width:60px;height:70px;background:rgb(119, 105, 23);}
+.ww_4{width:60px;height:82px;background:rgb(70, 61, 14);}
+.qq{width:1903px;height:104px;position: fixed;top:0px;left:0px;background:white;}
+/* 第一板块 */
+.diyi{height:104px;}
+.diyi_yi{height:63px;width:200px;overflow: hidden;position: relative;display:inline-block;margin-left:350px;margin-right:150px;float:left;}
+.logout{position: absolute;display:block;top:10px;left:0px;}
+.diyi_er{width:850px;height:105px;float:left;margin-left:100px;}
+.diyi_er_yi{width:750px;height:30px;}
+.diyi_er_yi_yi{line-height: 35px;padding-left:10px;padding-right:10px;font-size:10px;color:red;text-decoration: none;}
+.diyi_er_yi_yi:nth-child(1){margin-left:460px;}
+.diyi_er_yi_yi:nth-child(3){line-height: 35px;padding-left:10px;padding-right:10px;font-size:10px;color:black;}
+.diyi_er_yi_er{line-height: 35px;padding-left:5px;padding-right:5px;font-size:10px;}
+.diyi_er_er{width:850px;height:75px;margin-left:-100px;}
+.diyi_er_er_yi{font-size:16px;text-decoration: none;line-height: 75px;padding-left:25px;padding-right:25px;color:black;display:block;position: relative;float:left;}
+.diyi_er_er_yi_sjcd{width:1100px;height:400px;background:white;border:1px;position: absolute;top:60px;left:-480px;display:none;z-index: 1;opacity: .8;}
+.ul_1{display:inline-block;width:120px;height:300px;margin-left:20px;float:left;line-height:40px;}
+.ul_1 li{display:inline-block;color:black;list-style:none;}
+.ul_1 li:hover{color:red;}
+.diyi_er_er_yi:hover .diyi_er_er_yi_sjcd{display:block;}
+.diy_er_yi_yi:hover{color:red;}
+.diyi_er_er_yi:hover{color:red;}
+.diyi_er_yi_yi:nth-child(3):hover{color:red;}
+.input_box{width:170px;height:28px;display:inline-block;margin-left:80px;}
+.input_1{width:138px;height:28px;display:inline-block;border: 1px solid black;float:left;border-right: 0px;}
+.input_2{width:25px;height:30px;position: relative;overflow:hidden;display:inline-block;float:left;border:1px solid black;border-left:0px;}
+.input_2 img{display:block;left:-233px;top:2px;position: absolute;}
+/* 第二板块 */
+.dier{height:635px;position: relative;border:0;}
+#box{position:relative;width:1901px;height:650px;border:1px solid black;margin:0 auto;}
+/* 第三板块 */
+.disan{height:451px;}
+.disan_yi{width:1196px;height:125px;margin:0 auto;}
+.disan_yi_yi{line-height: 125px;font-size:30px;text-align: center;}
+.disan_er{width:1190px;height:270px;padding-left:10px;margin:0 auto;}
+.disan_er:nth-child(1){width:1190px;height:270px;padding:0;margin:0 auto;}
+/* 第四板块 */
+.disi{height:890px;overflow: hidden;background:#cccccc;}
+.disi_yi{margin:0 auto;width:1196px;height:30px;text-align: center;font-size:30px;padding-top:35px;text-decoration: none;color:black;}
+.disi_er{width:1196px;height:37.5px;margin:0 auto;}
+.disi_er_yi{font-size:10px;color:black;float:right;}
+.disi_wu{width:1196px;height:785px;margin:0 auto;}
+.disi_san{width:305px;height:785px;float:left;}
+.disi_si{width:885px;height:785px;float:left;margin:0 auto;position: relative;}
+.disi_si_yi{display:inline-block;width:286px;height:390px;margin-left:5px;position: relative;background:white;margin-bottom: 5px;} 
+.zuo1{width:120px;height:240px;position: absolute;top:30px;left:85px;}
+.you1{width:120px;height:240px;position: absolute;top:30px;left:85px;}
+.zuo2{width:120px;height:240px;position: absolute;top:30px;left:387px;}
+.you2{width:120px;height:240px;position: absolute;top:30px;left:387px;;}
+.zuo3{width:120px;height:240px;position: absolute;top:30px;left:689px;}
+.you3{width:120px;height:240px;position: absolute;top:30px;left:689px;}
+.zuo4{width:120px;height:240px;position: absolute;top:432px;left:85px;}
+.you4{width:120px;height:240px;position: absolute;top:432px;left:85px;}
+.zuo5{width:120px;height:240px;position: absolute;top:432px;left:387px;}
+.you5{width:120px;height:240px;position: absolute;top:432px;left:387px;}
+.zuo6{width:120px;height:240px;position: absolute;top:432px;left:689px;}
+.you6{width:120px;height:240px;position: absolute;top:432px;left:689px;}
+ .disi_si_yi:hover .zuo1{margin-left:-35px;}
+ .disi_si_yi:hover .you1{margin-left:25px;}
+ .disi_si_yi:hover .zuo2{margin-left:-35px;}
+ .disi_si_yi:hover .you2{margin-left:25px;}
+ .disi_si_yi:hover .zuo3{margin-left:-35px;}
+ .disi_si_yi:hover .you3{margin-left:25px;}
+.disi_si_yi:hover .zuo4{margin-left:-35px;}
+ .disi_si_yi:hover .you4{margin-left:25px;}
+ .disi_si_yi:hover .zuo5{margin-left:-35px;}
+ .disi_si_yi:hover .you5{margin-left:25px;}
+ .disi_si_yi:hover .zuo6{margin-left:-35px;}
+ .disi_si_yi:hover .you6{margin-left:25px;}
+.disi_si_yi{display:inline-block;width:286px;height:390px;margin-left:5px;position: relative;background:white;margin-bottom: 5px;} 
+.disi_si_yi_yi{display:block;width:286px;height:80px;position: absolute;z-index: 1;top:310px;left:5px;text-align:center;line-height: 25px;}
+.disi_si_yi_er{display:block;width:286px;height:80px;position: absolute;z-index: 1;top:310px;left:300px;text-align:center;}
+.disi_si_yi_san{display:block;width:286px;height:80px;position: absolute;z-index: 1;top:310px;left:595px;text-align:center;}
+.disi_si_yi_si{display:block;width:286px;height:80px;position: absolute;z-index: 1;top:707px;left:5px;text-align:center;}
+.disi_si_yi_wu{display:block;width:286px;height:80px;position: absolute;z-index: 1;top:707px;left:300px;text-align:center;}
+.disi_si_yi_liu{display:block;width:286px;height:80px;position: absolute;z-index: 1;top:707px;left:595px;text-align:center;}
+/* 第五板块 */
+.diwu{height:903px;background:#cccccc;}
+.diwu_yi{margin:0 auto;width:1196px;height:30px;text-align: center;font-size:30px;padding-top:35px;text-decoration: none;color:black;}
+.diwu_er{width:1196px;height:37.5px;margin:0 auto;}
+.diwu_er_yi{font-size:10px;color:black;float:right;}
+.diwu_san{width:1196px;height:778px;background:#cccccc;margin:0 auto;}
+.diwu_san_yi{display:inline-block;width:386px;height:343px;background:aquamarine;margin-left:5px;position: relative;text-decoration: none;}
+.diwu_san_yi:nth-child(4){display:inline-block;width:386px;height:343px;background:aquamarine;}
+.diwu_san_yi:nth-child(5){display:inline-block;width:386px;height:343px;background:aquamarine;}
+.diwu_san_yi:nth-child(6){display:inline-block;width:386px;height:343px;background:aquamarine;}
+.diwu_san_yi_yi{display:block;width:386px;height:343px;}
+.diwu_san_yi_er{width:386px;height:100px;position:absolute;top:230px;left:-40px;list-style:none;text-align: center;color:black}
+/* 第六板块 */
+.diliu{height:576px;background:white;}
+ .diliu_yi{width:1196px;height:125px;margin:0 auto;border:0;}
+.diliu_Yi_yi{font-size:30px;line-height: 125px;text-align: center;border:0;padding:0;margin:0;color:black;}
+.diliu_er{width:1196px;height:393px;margin:0 auto;}
+.diliu_er_yi{display:inline-block;margin-left:7px;}
+.diliu_san{height:88px;}
+.diliu_san_yi{width:1164px;height:47px;margin:0 auto;}
+.diliu_san_er{width:291px;height:47px;float:left;}
+
+.diliu_san_er_yi{width:46px;height:46px;position: relative;overflow: hidden;float:left;margin-right:5px;}
+.diliu_san_er_yi_yi{display:block;position: absolute;top:-60px;left:0px;}
+
+.diliu_san_er_er{width:46px;height:46px;position: relative;overflow: hidden;float:left;margin-right:5px;}
+.diliu_san_er_er_yi{display:block;position: absolute;top:-60px;left:-90px;}
+
+.diliu_san_er_san{width:46px;height:46px;position: relative;overflow: hidden;float:left;margin-right:5px;}
+.diliu_san_er_san_yi{display:block;position: absolute;top:-60px;left:-140px;}
+
+.diliu_san_er_si{width:46px;height:46px;position: relative;overflow: hidden;float:left; margin-right:5px;}
+.diliu_san_er_si_yi{display:block;position: absolute;top:-60px;left:-45px;}
+
+/* 第七板块 */
+.weibu{height:291px;}
+.weibu a{width:1190px;height:291px;margin:0 auto;display:block;margin-top:30px;}
+.weibu a ul{width:150px;height:291px;display:inline-block;float:left;margin:0px;margin-left:20px;}
+.weibu a ul li{line-height: 30px;list-style:none;color:black;}
+.weibu a ul li:hover{color:red;}
+.weibu_1{width:96px;height:96px;background:fuchsia;float:right;overflow: hidden;position: relative;}
+.weibu_2{display:block;position: absolute;left:-280px;}
+/* 第十板块 */
+.dishi{height:156px;background:black;overflow: hidden;}
+.dishi_1{height:116px;margin-top:20px;}
+.dishi_1_1{width:1190px;height:23px;margin:0 auto;position: relative;margin-top:-15px;}
+.dishi_1_1_zuo{width:90px;height:16px;display:block;color:white;float:left;}
+.dishi_1_1_you{width:130px;height:23px;display:block;color:white;float:left;}
+.dishi_hover{width:0px;height:0px;border:5px solid transparent;border-top-color:floralwhite;display:inline-block;}
+.cd-1{position:absolute;width:100px;height:48px;display:none;left:0px;}
+.cd-1 a{color:white;text-decoration: none;display:block;}
+.dishi_1_1 :hover .cd-1{display:block;color:red;}
+.dishi_1_2{width:1190px;margin:0 auto;height:47px;margin-top:10px;color:white;margin-top:25px;}
+.dishi_1_3{width:1190px;margin:0 auto;height:23px;background:aquamarine;}
+.weibu2{display:inline-block;width:33px;height:45px;float:left;}
+.dishi_1_2 p{margin-left:-219px;display:inline-block;width:700px;height:30px;font-size:12px;color:white;float:left}
+.weibu1{display:inline-block;float:left;}
+.weibu3{display:inline-block;width:120px;height:46px;float:left;}
+.dishi_2_1{display:block;width:1190px;height:23px;margin:0 auto;color:white;}

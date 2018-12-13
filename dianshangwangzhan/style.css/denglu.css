@@ -1,0 +1,31 @@
+html,body{height:100%;border:0;}
+body{margin:0px;padding:0px;border:0;}
+img{border: 0;}
+
+.diyi_img{width:2300px;height:1000px;display:block;left:-250px;top:150px;position: fixed;}
+.dier{width:1066px;opacity: .6;;height:715px;position: fixed;top:130px;left:450px;}
+.dier_img{display:block;margin-top:137px;margin-left:127px;}
+.denglujiemian{border:1px solid black;opacity: .6;;width:343px;height:520px;position: fixed;top:189px;left:1172px;border-radius: 5px;}
+.heizi_1{width:343px;height:224px;;margin-top:10px;}
+.heizi_2{width:343px;height:256px;}
+.heizi_img{width:110px;height:110px;background:greenyellow;border-radius: 50%;margin:0 auto;}
+.heizi_1_1{width:343px;height:26px;margin-top:60px;}
+.heizi_1_1 p{cursor: pointer;margin-left:60px;display:inline-block;width:40px;height:26px;color:rgb(235, 120, 13);}
+.heizi_1_1 a{cursor: pointer;margin-left:55px;list-style: none;color:black;display:inline-block;width:130px;height:19px;text-decoration: none;}
+.heizi_2_1{width:343px;height:112px;margin-top:30px;}
+.heizi_2_1 input{outline:none;margin-top:10px;;width:286px;height:38px;border-radius: 10px;display:inline-block;margin-left:25px;}
+.heizi_2_2{width:343px;height:22px;}
+.heizi_2_2_1{DISPLAY:block;margin-left:300px;margin-top:5px;cursor: pointer;}
+.heizi_2_3{width:343px;height:20px;margin-top:-10px;}
+.heizi_2_3 input{display:inline-block;margin-left:30px;}
+.heizi_2_3 p{display: inline-block;margin-left:10px;}
+.heizi_2_3 a{display:inline-block;margin-left:80px;text-decoration: none;color:black}
+.heizi_2_4{width:280px;height:46px;margin:0 auto;margin-top:20px;border-radius: 15px;}
+.heizi_2_4 input{outline:none;cursor: pointer;width:280px;height:46px;display:inline-block;background:rgb(233, 124, 0);border-radius: 15px;border:5px slid rgb(241, 118, 3);}
+.heizi_2_5{width:230px;height:16px;margin:0 auto;}
+.heizi_2_5 p{display:inline-block;margin-right:10px;}
+.heizi_2_5 a{color:rgb(238, 151, 20);display:inline-block;margin-left:20px;cursor: pointer;}
+
+
+
+

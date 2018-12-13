@@ -1,0 +1,140 @@
+body, html { font-size: 100%; 	padding: 0; margin: 0;height:100px;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body{
+	font-family: "Microsoft YaHei","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;background:rgb(199, 190, 190);;
+}
+control:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    text-align: center;
+}
+.form-control {
+	text-align: center;
+	display:block;
+	width:100px;height:30px;
+}
+.counter{
+	display:block;
+	width:100px;height:30px;
+}
+.position-relative {
+	width:1878px;
+	height:680px;
+	background:rgb(199, 190, 190);
+}
+.col-md-5{
+	width:224px;height:100px;
+}
+.dier{width:500px;height:500px;;position:fixed;top:100px;left:100px;}
+.tupian{height:500px;;width:400px;background:white;margin-left:-568px;border:1px solid black;}
+.tupian_1{height:300px;display:inline-block;margin-top:30px;}
+.input-group{margin-top:126px;margin-left:-32px;}
+.input-group-prepend{background:gray;}
+.input-group-prepen:nth-child(1){margin-left:100px;}
+.ziti{
+	width:400px;
+	height:100px;
+	/* background:red; */
+	margin-top:-503px;
+	margin-left:-177px;
+}
+.ziti p:nth-child(1){color:rgba(241, 119, 19, 0.863);font-size:34px;margin-left:-35px;}
+.ziti p:nth-child(4){margin-left:-38px;line-height: 60px;font-size:14px;}
+.ziti p:nth-child(2){margin-left:-9px;line-height: 60px;font-size:14px;}
+.img_1{width:500px;height:100px;margin-top:50px;margin-left:-50px;}
+.img_1_1{display:inline-block;width:90px;height:100px;border:1px solid black;}
+.img_1_1_1{display:inline-block;height:80px;margin-top:10px;}
+.btn-add {width:20px;height:20px;}
+.input-group-prepend{width:20px;height:20px;background:rgb(52, 129, 218);position: absolute;left:109px;}
+.input-group-append{width:20px;height:20px;position:absolute;}
+.btn-subtract{width:20px;height:20px;}
+.fa{position: absolute;color:white;margin-left:-6px;top:0px;}
+.input-group>.form-control:not(:first-child){display:inline-block;height:20px;}
+.zitiyanse{width:300px;height:50px;margin-left:-43px;margin-top:141px;}
+.zitiyanse p{display:inline-block;font-size:14px;float:left;}
+.ziti_img1{width:50px;height:50px;margin-left:10px;display:inline-block }
+.ziti_img1:nth-child(1){width:50px;height:50px;display:inline-block;}
+.ziti_img1_1{display:inline-block;height:35px;width:20px;margin-top:7px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diyi{height:104px;background:white;}
+.diyi_yi{height:63px;width:200px;overflow: hidden;position: relative;display:inline-block;margin-left:350px;margin-right:150px;float:left;}
+.logout{position: absolute;display:block;top:10px;left:0px;}
+.diyi_er{width:850px;height:105px;float:left;margin-left:100px;}
+.diyi_er_yi{width:750px;height:30px;}
+.diyi_er_yi_yi{line-height: 35px;padding-left:10px;padding-right:10px;font-size:10px;color:red;text-decoration: none;}
+.diyi_er_yi_yi:nth-child(1){margin-left:460px;}
+.diyi_er_yi_yi:nth-child(3){line-height: 35px;padding-left:10px;padding-right:10px;font-size:10px;color:black;}
+.diyi_er_yi_er{line-height: 35px;padding-left:5px;padding-right:5px;font-size:10px;}
+.diyi_er_er{width:850px;height:75px;margin-left:-100px;}
+.diyi_er_er_yi{font-size:16px;text-decoration: none;line-height: 75px;padding-left:25px;padding-right:25px;color:black;display:block;position: relative;float:left;}
+.diyi_er_er_yi_sjcd{width:1100px;height:400px;background:white;border:1px;position: absolute;top:60px;left:-480px;display:none;z-index: 1;opacity: .8;}
+.ul_1{display:inline-block;width:120px;height:300px;margin-left:20px;float:left;line-height:40px;}
+.ul_1 li{display:inline-block;color:black;list-style:none;}
+.ul_1 li:hover{color:red;}
+/* .diyi_er_er_yi:hover .diyi_er_er_yi_sjcd{display:block;} */
+.diy_er_yi_yi:hover{color:red;}
+.diyi_er_er_yi:hover{color:red;}
+.diyi_er_yi_yi:nth-child(3):hover{color:red;}
+.input_box{width:170px;height:28px;display:inline-block;margin-left:80px;}
+.input_1{width:138px;height:28px;display:inline-block;border: 1px solid black;float:left;border-right: 0px;}
+.input_2{width:25px;height:30px;position: relative;overflow:hidden;display:inline-block;float:left;border:1px solid black;border-left:0px;}
+.input_2 img{display:block;left:-233px;top:2px;position: absolute;}
+
+
+
+
+
+
+
+
+
+
+.dishi{height:156px;background:black;overflow: hidden;}
+.dishi_1{height:116px;margin-top:20px;}
+.dishi_1_1{width:1190px;height:23px;margin:0 auto;position: relative;margin-top:-15px;}
+.dishi_1_1_zuo{width:90px;height:16px;display:block;color:white;float:left;}
+.dishi_1_1_you{width:130px;height:23px;display:block;color:white;float:left;}
+.dishi_hover{width:0px;height:0px;border:5px solid transparent;border-top-color:floralwhite;display:inline-block;}
+.cd-1{position:absolute;width:100px;height:48px;display:none;left:0px;}
+.cd-1 a{color:white;text-decoration: none;display:block;}
+.dishi_1_1 :hover .cd-1{display:block;color:red;}
+.dishi_1_2{width:1190px;margin:0 auto;height:47px;margin-top:10px;color:white;margin-top:25px;}
+.dishi_1_3{width:1190px;margin:0 auto;height:23px;background:aquamarine;}
+.weibu2{display:inline-block;width:33px;height:45px;float:left;}
+.dishi_1_2 p{margin-left:-219px;display:inline-block;width:700px;height:30px;font-size:12px;color:white;float:left}
+.weibu1{display:inline-block;float:left;}
+.weibu3{display:inline-block;width:120px;height:46px;float:left;}
+.dishi_2_1{display:block;width:1190px;height:23px;margin:0 auto;color:white;}
